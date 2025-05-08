@@ -126,7 +126,7 @@ Even when you don’t declare types, TypeScript can still check for errors.
 Example:
      let isDone = false;
 
-isDone = "yes";  // ❌ Error: Type 'string' is not assignable to type 'boolean'
+isDone = "yes";  //  Error: Type 'string' is not assignable to type 'boolean'
 Faster Development
 
 You write less boilerplate code but still get the benefits of type safety and autocompletion.
@@ -159,9 +159,9 @@ Example:
             console.log(`Hello, ${name}`);
             }
  Summary
-✅ Type inference means TypeScript figures out types automatically
-✅ It reduces the need for manual type annotations
-✅ It makes code cleaner, safer, and faster to write
-✅ It helps with editor autocompletion and early error detection
+ - Type inference means TypeScript figures out types automatically
+ - It reduces the need for manual type annotations
+ - It makes code cleaner, safer, and faster to write
+ - It helps with editor autocompletion and early error detection
 
 By understanding and using type inference wisely, you can make your TypeScript code both elegant and robust.
