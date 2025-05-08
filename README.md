@@ -2,7 +2,7 @@
 
 
 <!-- ***************************************************************** -->
-# **⚔️ TypeScript Showdown: Interface vs Type — Who Rules the Kingdom?**
+# ** TypeScript Showdown: Interface vs Type — Who Rules the Kingdom?**
 In the vast kingdom of TypeScript, two mighty champions reign:
 Interface and Type.
 
@@ -12,8 +12,8 @@ But their weapons, strengths, and strategies are very different.
 
 Let’s witness their legendary battle.
 
-⚔️ Round 1: Origins and Powers
-👑 Interface — the Royal Architect
+ Round 1: Origins and Powers
+Interface — the Royal Architect
 
 Born to define the blueprint of objects.
 
@@ -31,7 +31,7 @@ Example:
                 sword: string;
                 }
 
-🛡️ Type — the Shape-shifting Sorcerer
+ Type — the Shape-shifting Sorcerer
 
 Master of aliases.
 
@@ -49,8 +49,8 @@ Example:
             sword: string;
             };
 
-⚔️ Round 2: Special Moves
-👑 Interface’s Special Moves
+ Round 2: Special Moves
+ Interface’s Special Moves
 
 ⚡ Declaration merging
 → Declare interface Knight twice → it magically merges into one.
@@ -58,19 +58,19 @@ Example:
 ⚡ Extends kingdom alliances
 → Builds massive networks with extends.
 
-🛡️ Type’s Special Moves
+ Type’s Special Moves
 
-🔥 Union spells
+ Union spells
 → type Weapon = 'sword' | 'bow' | 'axe';
 
-🔥 Intersection enchantments
+ Intersection enchantments
 → type ArmoredKnight = Knight & { armor: string };
 
-🔥 Works with primitives
+ Works with primitives
 → type Age = number;
 
 ⚔️ Round 3: Limitations
-👑 Interface’s Weakness
+ Interface’s Weakness
 
 Bound mostly to objects and classes.
 
@@ -78,7 +78,7 @@ No union or intersection magic.
 
 Needs extends to combine, but can’t mix primitives.
 
-🛡️ Type’s Weakness
+ Type’s Weakness
 
 Hates duplicate declarations — no declaration merging.
 
@@ -98,7 +98,7 @@ Example:
             }
 
 type Warrior = Character & { weapon: string };
-🏆 Takeaway: Choose the Right Champion
+ Takeaway: Choose the Right Champion
 Use Interface →	Use Type →
 Object contracts	Anything: objects, unions, primitives
 Extending with extends	Combining with & and `
