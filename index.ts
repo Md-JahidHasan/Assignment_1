@@ -1,5 +1,5 @@
 {
-  //======================================================
+  //1.======================================================
 
   function formatString(name: string, toUpper?: boolean): string {
     if (toUpper === false) {
@@ -11,11 +11,11 @@
     }
   }
 
-  //   console.log(formatString("fara"));
-  //   console.log(formatString("fara", false));
-  //   console.log(formatString("fara", true));
-
-  // =======================================================
+    
+    
+    
+    
+  // 2.=======================================================
 
   function filterByRating(
     items: { title: string; rating: number }[]
@@ -23,29 +23,20 @@
     return items.filter((item) => item.rating >= 4);
   }
 
-  const movies = [
-    { title: "Movie A", rating: 2.7 },
-    { title: "Movie B", rating: 4.9 },
-    { title: "Movie C", rating: 4.0 },
-    { title: "Movie D", rating: 3.5 },
-  ];
-
-  console.log(filterByRating(movies));
-
-  // =======================================================
+    
+    
+    
+  // 3.=======================================================
 
   function concatenateArrays<T>(...arrays: T[][]): T[] {
     return arrays.flat();
   }
-  //   console.log(concatenateArrays(["a", "b"], ["c"]));
 
-  //   // Output: ["a", "b", "c"]
-
-  //   console.log(concatenateArrays([1, 2], [3, 4], [5]));
-
-  // Output: [1, 2, 3, 4, 5]
-
-  // =======================================================
+    
+    
+    
+    
+  // 4.=======================================================
 
   class Vehicle {
     private make: string;
@@ -76,13 +67,11 @@
     }
   }
 
-  const myCar = new Car("Toyota", 2020, "Corolla");
-
-  console.log(myCar.getInfo()); // Output: "Make: Toyota, Year: 2020"
-
-  console.log(myCar.getModel());
-
-  // =======================================================
+    
+    
+    
+    
+  // 5.=======================================================
 
   function processValue(value: string | number): number {
     if (typeof value === "string") {
@@ -91,10 +80,12 @@
       return value * 2;
     }
   }
+    
+    
+    
+    
 
-  //   console.log(processValue("hello")); // Output: 5
-
-  //   console.log(processValue(10)); // Output: 20
+  // 6.=======================================================
 
   interface Product {
     name: string;
@@ -110,17 +101,11 @@
     );
   }
 
-  // const products = [
-  //   { name: "Pen", price: 10 },
+    
+    
+    
 
-  //   { name: "Notebook", price: 205 },
-
-  //   { name: "Bag", price: 50 },
-  // ];
-
-  // console.log(getMostExpensiveProduct(products));
-
-  // =======================================================
+  // 7.=======================================================
 
   enum Day {
     Monday,
@@ -140,8 +125,12 @@
     }
   }
 
-    // =======================================================
     
+    
+    
+    
+  // 8.=======================================================
+
   async function squareAsync(n: number): Promise<number> {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
