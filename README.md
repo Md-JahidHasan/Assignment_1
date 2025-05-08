@@ -113,9 +113,13 @@ Because together, they rule the kingdom.
 
 
 
+
+
+
+
 <!-- ************************************************* -->
 
-🌟 What Is Type Inference in TypeScript and Why Is It Helpful?
+**  #🌟 What Is Type Inference in TypeScript and Why Is It Helpful?**
 
 TypeScript is well known for its static type system, which makes JavaScript development safer and more predictable. But here’s something many developers love about TypeScript: you don’t always have to explicitly declare types.
 
